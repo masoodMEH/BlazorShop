@@ -1,0 +1,13 @@
+{
+  "name": "BlazorShop.Server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "npx @tailwindcss/cli -i ./wwwroot/tailwind/styles.css -o ./wwwroot/css/app.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.15",
+    "tailwindcss": "^4.0.15"
+  }
+}

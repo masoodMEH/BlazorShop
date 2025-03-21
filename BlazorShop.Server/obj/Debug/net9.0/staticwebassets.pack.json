@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorShop.Server.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorShop.Server.npl9qiymz5.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\bundle.js",
+      "PackagePath": "staticwebassets\\bundle.js"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\css\\highlight.css",
+      "PackagePath": "staticwebassets\\css\\highlight.css"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\css\\typography.css",
+      "PackagePath": "staticwebassets\\css\\typography.css"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\tailwind\\styles.css",
+      "PackagePath": "staticwebassets\\tailwind\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BlazorShop.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BlazorShop.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.BlazorShop.Server.props",
+      "PackagePath": "build\\BlazorShop.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorShop.Server.props",
+      "PackagePath": "buildMultiTargeting\\BlazorShop.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.BlazorShop.Server.props",
+      "PackagePath": "buildTransitive\\BlazorShop.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
