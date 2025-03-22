@@ -2,11 +2,7 @@
   "Files": [
     {
       "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorShop.Server.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BlazorShop.Server.npl9qiymz5.bundle.scp.css"
-    },
-    {
-      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\bundle.js",
-      "PackagePath": "staticwebassets\\bundle.js"
+      "PackagePath": "staticwebassets\\BlazorShop.Server.k5mlra6o79.bundle.scp.css"
     },
     {
       "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\css\\app.css",
@@ -23,6 +19,202 @@
     {
       "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\Dana\\woff2\\DanaFaNum-DemiBold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Dana\\woff2\\DanaFaNum-DemiBold.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\Dana\\woff2\\DanaFaNum-Medium.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Dana\\woff2\\DanaFaNum-Medium.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\Dana\\woff2\\DanaFaNum-Regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Dana\\woff2\\DanaFaNum-Regular.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\fontiran.css",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\fontiran.css"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\style.css",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\style.css"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff2\\IRANSansX-Black.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff2\\IRANSansX-Black.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff2\\IRANSansX-Bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff2\\IRANSansX-Bold.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff2\\IRANSansX-DemiBold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff2\\IRANSansX-DemiBold.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff2\\IRANSansX-ExtraBlack.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff2\\IRANSansX-ExtraBlack.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff2\\IRANSansX-ExtraBold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff2\\IRANSansX-ExtraBold.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff2\\IRANSansX-Heavy.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff2\\IRANSansX-Heavy.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff2\\IRANSansX-Light.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff2\\IRANSansX-Light.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff2\\IRANSansX-Medium.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff2\\IRANSansX-Medium.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff2\\IRANSansX-Regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff2\\IRANSansX-Regular.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff2\\IRANSansX-Thin.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff2\\IRANSansX-Thin.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff2\\IRANSansX-UltraLight.woff2",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff2\\IRANSansX-UltraLight.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff\\IRANSansX-Black.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff\\IRANSansX-Black.woff"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff\\IRANSansX-Bold.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff\\IRANSansX-Bold.woff"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff\\IRANSansX-DemiBold.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff\\IRANSansX-DemiBold.woff"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff\\IRANSansX-ExtraBlack.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff\\IRANSansX-ExtraBlack.woff"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff\\IRANSansX-ExtraBold.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff\\IRANSansX-ExtraBold.woff"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff\\IRANSansX-Heavy.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff\\IRANSansX-Heavy.woff"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff\\IRANSansX-Light.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff\\IRANSansX-Light.woff"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff\\IRANSansX-Medium.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff\\IRANSansX-Medium.woff"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff\\IRANSansX-Regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff\\IRANSansX-Regular.woff"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff\\IRANSansX-Thin.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff\\IRANSansX-Thin.woff"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\IRANSans\\woff\\IRANSansX-UltraLight.woff",
+      "PackagePath": "staticwebassets\\fonts\\IRANSans\\woff\\IRANSansX-UltraLight.woff"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\Morabba\\woff2\\Morabba-Bold.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Morabba\\woff2\\Morabba-Bold.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\Morabba\\woff2\\Morabba-Light.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Morabba\\woff2\\Morabba-Light.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\Morabba\\woff2\\Morabba-Medium.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Morabba\\woff2\\Morabba-Medium.woff2"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\Vazir\\Vazir-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Vazir\\Vazir-Black.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\Vazir\\Vazir-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Vazir\\Vazir-Bold.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\Vazir\\Vazir-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Vazir\\Vazir-Medium.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\fonts\\Vazir\\Vazir-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Vazir\\Vazir-Regular.ttf"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\ArrowLeft.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\ArrowLeft.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\ArrowRightEndOnRectangle.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\ArrowRightEndOnRectangle.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\Backward.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\Backward.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\Bars4.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\Bars4.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\Clock.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\Clock.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\Cloud.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\Cloud.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\EllipsisHorizontal.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\EllipsisHorizontal.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\EllipsisVertical.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\EllipsisVertical.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\Home.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\Home.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\Key.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\Key.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\LockClosed.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\LockClosed.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\LockOpen.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\LockOpen.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\User.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\User.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\images\\icons\\UserPlus.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\UserPlus.svg"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\js\\sidebar.js",
+      "PackagePath": "staticwebassets\\js\\sidebar.js"
     },
     {
       "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\tailwind\\styles.css",

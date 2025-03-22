@@ -4,11 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "npx @tailwindcss/cli -i ./wwwroot/tailwind/styles.css -o ./wwwroot/css/app.css --watch"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.0.15",
+    "alpinejs": "^3.14.9",
     "tailwindcss": "^4.0.15"
   }
 }

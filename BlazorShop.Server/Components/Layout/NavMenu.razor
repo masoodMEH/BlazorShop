@@ -2,71 +2,92 @@
 
 @inject NavigationManager NavigationManager
 
-<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">BlazorShop.Server</a>
+<div class="flex h-screen">
+    <!-- Sidebar -->
+    <div class="text-white p-4 w-full overflow-y-auto">
+        <a class="mb-6 text-xl font-semibold" href="">BlazorShop.Server</a>
+        <nav class="flex flex-col">
+
+            <div class="nav-item px-3 py-2">
+                <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700" href=""
+                         Match="NavLinkMatch.All">
+                    <span class="px-3">
+                        <img class="w-6 h-6" src="/images/icons/Home.svg" alt="home icon" />
+                    </span> Home
+                </NavLink>
+            </div>
+
+            <div class="nav-item px-3 py-2">
+                <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700"
+                         href="counter">
+                    <span class="px-3">
+                        <img class="w-6 h-6" src="/images/icons/Cloud.svg" alt="home icon" />
+                    </span> Counter
+                </NavLink>
+            </div>
+
+            <div class="nav-item px-3 py-2">
+                <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700"
+                         href="weather">
+                    <span class="px-3">
+                        <img class="w-6 h-6" src="/images/icons/Cloud.svg" alt="home icon" />
+                    </span> Weather
+                </NavLink>
+            </div>
+
+            <div class="nav-item px-3 py-2">
+                <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700" href="auth">
+                    <span class="px-3">
+                        <img class="w-6 h-6" src="/images/icons/Key.svg" alt="home icon" />
+                    </span> Auth Required
+                </NavLink>
+            </div>
+
+            <AuthorizeView>
+                <Authorized>
+                    <div class="nav-item px-3 py-2">
+                        <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700"
+                                 href="Account/Manage">
+                            <span class="px-3">
+                                <img class="w-6 h-6" src="/images/icons/User.svg" alt="home icon" />
+                            </span> @context.User.Identity?.Name
+                        </NavLink>
+                    </div>
+                    <div class="nav-item px-3 py-2">
+                        <form action="Account/Logout" method="post">
+                            <AntiforgeryToken />
+                            <input type="hidden" name="ReturnUrl" value="@currentUrl" />
+                            <button type="submit"
+                                    class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700">
+                                <span class="px-3">
+                                    <img class="w-6 h-6" src="/images/icons/LockClosed.svg" alt="home icon" />
+                                </span> Logout
+                            </button>
+                        </form>
+                    </div>
+                </Authorized>
+                <NotAuthorized>
+                    <div class="nav-item px-3 py-2">
+                        <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700"
+                                 href="Account/Register">
+                            <span class="px-3 text-white">
+                                <img class="w-6 h-6" src="/images/icons/UserPlus.svg" alt="home icon" />
+                            </span> Register
+                        </NavLink>
+                    </div>
+                    <div class="nav-item px-3 py-2">
+                        <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700"
+                                 href="Account/Login">
+                            <span class="px-3">
+                                <img class="w-6 h-6" src="/images/icons/ArrowRightEndOnRectangle.svg" alt="home icon" />
+
+                            </span> Login
+                        </NavLink>
+                    </div>
+                </NotAuthorized>
+            </AuthorizeView>
+        </nav>
     </div>
-</div>
-
-<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
-
-<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
-    <nav class="nav flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
-            </NavLink>
-        </div>
-
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="auth">
-                <span class="bi bi-lock-nav-menu" aria-hidden="true"></span> Auth Required
-            </NavLink>
-        </div>
-
-        <AuthorizeView>
-            <Authorized>
-                <div class="nav-item px-3">
-                    <NavLink class="nav-link" href="Account/Manage">
-                        <span class="bi bi-person-fill-nav-menu" aria-hidden="true"></span> @context.User.Identity?.Name
-                    </NavLink>
-                </div>
-                <div class="nav-item px-3">
-                    <form action="Account/Logout" method="post">
-                        <AntiforgeryToken />
-                        <input type="hidden" name="ReturnUrl" value="@currentUrl" />
-                        <button type="submit" class="nav-link">
-                            <span class="bi bi-arrow-bar-left-nav-menu" aria-hidden="true"></span> Logout
-                        </button>
-                    </form>
-                </div>
-            </Authorized>
-            <NotAuthorized>
-                <div class="nav-item px-3">
-                    <NavLink class="nav-link" href="Account/Register">
-                        <span class="bi bi-person-nav-menu" aria-hidden="true"></span> Register
-                    </NavLink>
-                </div>
-                <div class="nav-item px-3">
-                    <NavLink class="nav-link" href="Account/Login">
-                        <span class="bi bi-person-badge-nav-menu" aria-hidden="true"></span> Login
-                    </NavLink>
-                </div>
-            </NotAuthorized>
-        </AuthorizeView>
-    </nav>
 </div>
 
 @code {
@@ -89,4 +110,3 @@
         NavigationManager.LocationChanged -= OnLocationChanged;
     }
 }
-
