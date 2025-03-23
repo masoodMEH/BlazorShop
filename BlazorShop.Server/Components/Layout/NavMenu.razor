@@ -4,52 +4,52 @@
 
 <div class="flex h-screen">
     <!-- Sidebar -->
-    <div class="text-white p-4 w-full overflow-y-auto">
+    <div class="w-full overflow-y-auto p-4 text-white">
         <a class="mb-6 text-xl font-semibold" href="">BlazorShop.Server</a>
         <nav class="flex flex-col">
 
             <div class="nav-item px-3 py-2">
-                <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700" href=""
+                <NavLink class="nav-item flex items-center rounded px-3 py-2 text-white hover:bg-gray-700" href=""
                          Match="NavLinkMatch.All">
                     <span class="px-3">
-                        <img class="w-6 h-6" src="/images/icons/Home.svg" alt="home icon" />
-                    </span> Home
+                        <img class="h-5 w-5" src="/images/icons/Home.svg" alt="home icon" />
+                    </span> <span class="mt-1">خانه</span>
                 </NavLink>
             </div>
 
             <div class="nav-item px-3 py-2">
-                <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700"
+                <NavLink class="nav-item flex items-center rounded px-3 py-2 text-white hover:bg-gray-700"
                          href="counter">
                     <span class="px-3">
-                        <img class="w-6 h-6" src="/images/icons/Cloud.svg" alt="home icon" />
-                    </span> Counter
+                        <img class="h-5 w-5" src="/images/icons/Clock.svg" alt="home icon" />
+                    </span><span class="mt-1">شمارنده</span>
                 </NavLink>
             </div>
 
             <div class="nav-item px-3 py-2">
-                <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700"
+                <NavLink class="nav-item flex items-center rounded px-3 py-2 text-white hover:bg-gray-700"
                          href="weather">
                     <span class="px-3">
-                        <img class="w-6 h-6" src="/images/icons/Cloud.svg" alt="home icon" />
-                    </span> Weather
+                        <img class="h-5 w-5" src="/images/icons/Cloud.svg" alt="home icon" />
+                    </span><span class="mt-1">آب و هوا</span>
                 </NavLink>
             </div>
 
             <div class="nav-item px-3 py-2">
-                <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700" href="auth">
+                <NavLink class="nav-item flex items-center rounded px-3 py-2 text-white hover:bg-gray-700" href="auth">
                     <span class="px-3">
-                        <img class="w-6 h-6" src="/images/icons/Key.svg" alt="home icon" />
-                    </span> Auth Required
+                        <img class="h-5 w-5" src="/images/icons/Key.svg" alt="home icon" />
+                    </span><span class="mt-1">نیاز به اهراز هویت</span>
                 </NavLink>
             </div>
 
             <AuthorizeView>
                 <Authorized>
                     <div class="nav-item px-3 py-2">
-                        <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700"
+                        <NavLink class="nav-item flex items-center rounded px-3 py-2 text-white hover:bg-gray-700"
                                  href="Account/Manage">
                             <span class="px-3">
-                                <img class="w-6 h-6" src="/images/icons/User.svg" alt="home icon" />
+                                <img class="h-5 w-5" src="/images/icons/User.svg" alt="home icon" />
                             </span> @context.User.Identity?.Name
                         </NavLink>
                     </div>
@@ -58,30 +58,29 @@
                             <AntiforgeryToken />
                             <input type="hidden" name="ReturnUrl" value="@currentUrl" />
                             <button type="submit"
-                                    class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700">
+                                    class="nav-item flex items-center rounded px-3 py-2 text-white hover:bg-gray-700">
                                 <span class="px-3">
-                                    <img class="w-6 h-6" src="/images/icons/LockClosed.svg" alt="home icon" />
-                                </span> Logout
+                                    <img class="h-5 w-5" src="/images/icons/LockClosed.svg" alt="home icon" />
+                                </span> خروج
                             </button>
                         </form>
                     </div>
                 </Authorized>
                 <NotAuthorized>
                     <div class="nav-item px-3 py-2">
-                        <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700"
+                        <NavLink class="nav-item flex items-center rounded px-3 py-2 text-white hover:bg-gray-700"
                                  href="Account/Register">
                             <span class="px-3 text-white">
-                                <img class="w-6 h-6" src="/images/icons/UserPlus.svg" alt="home icon" />
-                            </span> Register
+                                <img class="h-5 w-5" src="/images/icons/UserPlus.svg" alt="home icon" />
+                            </span><span class="mt-1">ثبت نام</span>
                         </NavLink>
                     </div>
                     <div class="nav-item px-3 py-2">
-                        <NavLink class="text-white nav-item px-3 py-2 flex items-center rounded hover:bg-gray-700"
+                        <NavLink class="nav-item flex items-center rounded px-3 py-2 text-white hover:bg-gray-700"
                                  href="Account/Login">
                             <span class="px-3">
-                                <img class="w-6 h-6" src="/images/icons/ArrowRightEndOnRectangle.svg" alt="home icon" />
-
-                            </span> Login
+                                <img class="h-5 w-5" src="/images/icons/ArrowRightEndOnRectangle.svg" alt="home icon" />
+                            </span><span class="mt-1">ورود</span>
                         </NavLink>
                     </div>
                 </NotAuthorized>

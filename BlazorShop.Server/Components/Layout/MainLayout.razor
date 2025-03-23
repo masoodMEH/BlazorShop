@@ -1,18 +1,17 @@
 ﻿@inherits LayoutComponentBase
+@inject IJSRuntime JS
 
 <div class="page">
-    <div class="bg-gray-500 !w-75">
+    <div class="!w-75 bg-gray-500">
         <NavMenu />
     </div>
 
     <main>
-        <div class="p-4 bg-gray-600">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank" class="bg-gray-500">About</a>
-        </div>
+        <Sidebar />
 
-        <article class="content p-3">
+        <div class="px-4 py-2">
             @Body
-        </article>
+        </div>
     </main>
 </div>
 
@@ -21,3 +20,7 @@
     <a href="." class="reload">Reload</a>
     <span class="dismiss">🗙</span>
 </div>
+
+@code {
+
+}

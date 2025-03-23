@@ -1,4 +1,7 @@
 is_global = true
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudAllowedAttributeList = 
 build_property.TargetFramework = net9.0
 build_property.TargetFramework = net9.0
 build_property.TargetPlatformMinVersion = 
@@ -204,6 +207,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Projects/- Dotnet Projects/BlazorShop/BlazorShop.Server/Components/Shared/DarkModeToggle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcRGFya01vZGVUb2dnbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Projects/- Dotnet Projects/BlazorShop/BlazorShop.Server/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -215,3 +222,7 @@ build_metadata.AdditionalFiles.CssScope = b-mrkc1pnzgl
 [E:/Projects/- Dotnet Projects/BlazorShop/BlazorShop.Server/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-hetdw7ais6
+
+[E:/Projects/- Dotnet Projects/BlazorShop/BlazorShop.Server/Components/Layout/Sidebar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcU2lkZWJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-w84sd6p5be

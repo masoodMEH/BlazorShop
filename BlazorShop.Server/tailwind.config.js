@@ -1,21 +1,45 @@
-﻿//module.exports = {
-//    content: ["./Pages/**/*.razor", "./Shared/**/*.razor", "./**/*.cshtml"],
-//    theme: {
-//        extend: {},
-//    },
-//    plugins: [],
-//};
+﻿/** @type {import('tailwindcss').Config} */
+
+import tailwindFormPlugin from "@tailwindcss/forms";
 
 module.exports = {
-    content: ["./**/*.{html,js,mjs,md,cshtml,razor,cs}", "./Components/**/*.{cshtml,razor}", "./Css.cs"],
+    content: ["./**/*.{razor,cshtml,html,js,ts,jsx,tsx}",
+        "./Components/**/*.{razor,cshtml}",
+        "./Shared/**/*.{razor,cshtml}",
+        "./Pages/**/*.{razor,cshtml}",
+        "./wwwroot/css/**/*.css"],
     darkMode: 'class',
     theme: {
         extend: {
             colors: {
-                'accent-1': '#FAFAFA',
-                'accent-2': '#EAEAEA',
-                danger: 'rgb(153 27 27)',
-                success: 'rgb(22 101 52)',
+                primary: {
+                    900: "#4A6DFF",
+                    800: "#5C7CFF",
+                    700: "#6E8AFF",
+                    600: "#8099FF",
+                    500: "#92A7FF",
+                    400: "#A4B6FF",
+                    300: "#B7C5FF",
+                    200: "#C9D3FF",
+                    100: "#DBE2FF",
+                    50: "#E4E9FF",
+                },
+                secondary: {
+                    900: "#111827",
+                    800: "#1F2937",
+                    700: "#374151",
+                    600: "#4B5563",
+                    500: "#6B7280",
+                    400: "#9CA3AF",
+                    300: "#D1D5DB",
+                    200: "#E5E7EB",
+                    100: "#F3F4F6",
+                    50: "#F9FAFB",
+                    0: "#FFFFFF",
+                },
+                success: "#00C073",
+                warning: "#FF9900",
+                error: "#FF4757",
             },
             fontFamily: {
                 Dana: "Dana",
@@ -40,7 +64,16 @@ module.exports = {
                 IRANSansXBold: "IRANSansX-Bold",
                 IRANSansXBlack: "IRANSansX-Black;",
             },
+            container: {
+                center: true,
+                padding: "1rem",
+            },
         },
     },
-    plugins: [],
+    plugins: [
+        require("@tailwindcss/aspect-ratio"),
+        tailwindFormPlugin({
+            strategy: "class",
+        }),
+    ],
 }

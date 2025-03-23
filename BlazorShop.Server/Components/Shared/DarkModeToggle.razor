@@ -1,0 +1,34 @@
+﻿@using BlazorShop.Server.Services
+@inject IJSRuntime JS
+@inject ThemeService ThemeService
+
+<button @onclick="ToggleTheme" class="border-2 rounded-lg border-gray-300 bg-gray-100 p-3 text-gray-700 transition-all hover:bg-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700">
+    @if (CurrentTheme == "dark")
+    {
+        <span>🌙 Dark</span>
+    }
+    else
+    {
+        <span>☀️ Light</span>
+    }
+</button>
+
+@code {
+    private string CurrentTheme = "light";
+    private bool _isRendered = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            CurrentTheme = await ThemeService.GetThemeAsync();
+            StateHasChanged(); // برای بروزرسانی UI بعد از دریافت مقدار
+        }
+    }
+
+    private async Task ToggleTheme()
+    {
+        CurrentTheme = CurrentTheme == "light" ? "dark" : "light";
+        await ThemeService.SetThemeAsync(CurrentTheme);
+    }
+}

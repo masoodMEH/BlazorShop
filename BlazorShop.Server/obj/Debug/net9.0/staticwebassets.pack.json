@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BlazorShop.Server.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BlazorShop.Server.k5mlra6o79.bundle.scp.css"
+      "PackagePath": "staticwebassets\\BlazorShop.Server.eantcmsg6q.bundle.scp.css"
     },
     {
       "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\css\\app.css",
@@ -215,6 +215,14 @@
     {
       "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\js\\sidebar.js",
       "PackagePath": "staticwebassets\\js\\sidebar.js"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\js\\spaghetti.js",
+      "PackagePath": "staticwebassets\\js\\spaghetti.js"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\js\\theme-toggle.js",
+      "PackagePath": "staticwebassets\\js\\theme-toggle.js"
     },
     {
       "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\tailwind\\styles.css",
