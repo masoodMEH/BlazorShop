@@ -1,7 +1,6 @@
 using BlazorShop.Server.Components;
 using BlazorShop.Server.Components.Account;
 using BlazorShop.Server.Data;
-using BlazorShop.Server.Services;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -19,7 +18,6 @@ builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuth
 
 //builder.Services.AddMudServices();
 // builder.Services.AddScoped<IJSRuntime, JSRuntime>();
-builder.Services.AddScoped<ThemeService>();
 
 builder.Services.AddAuthentication(options =>
     {

@@ -221,12 +221,12 @@
       "PackagePath": "staticwebassets\\js\\spaghetti.js"
     },
     {
-      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\js\\theme-toggle.js",
-      "PackagePath": "staticwebassets\\js\\theme-toggle.js"
-    },
-    {
       "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\tailwind\\styles.css",
       "PackagePath": "staticwebassets\\tailwind\\styles.css"
+    },
+    {
+      "Id": "E:\\Projects\\- Dotnet Projects\\BlazorShop\\BlazorShop.Server\\wwwroot\\tailwind\\styles.output.css",
+      "PackagePath": "staticwebassets\\tailwind\\styles.output.css"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BlazorShop.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

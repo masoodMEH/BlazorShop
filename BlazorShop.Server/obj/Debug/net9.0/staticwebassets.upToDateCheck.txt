@@ -1,0 +1,79 @@
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\tailwind\styles.css
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\Backward.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\Home.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\LockClosed.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\css\typography.css
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\css\highlight.css
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\UserPlus.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\Clock.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\css\app.css
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\js\sidebar.js
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\Bars4.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\ArrowLeft.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\fonts\IRANSans\style.css
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\Cloud.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\LockOpen.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\EllipsisVertical.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\fonts\IRANSans\fontiran.css
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\tailwind\styles.output.css
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\js\spaghetti.js
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\User.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\Key.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\ArrowRightEndOnRectangle.svg
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\wwwroot\images\icons\EllipsisHorizontal.svg
+wwwroot\css\app.css
+wwwroot\css\highlight.css
+wwwroot\css\typography.css
+wwwroot\favicon.png
+wwwroot\fonts\Dana\woff2\DanaFaNum-DemiBold.woff2
+wwwroot\fonts\Dana\woff2\DanaFaNum-Medium.woff2
+wwwroot\fonts\Dana\woff2\DanaFaNum-Regular.woff2
+wwwroot\fonts\IRANSans\fontiran.css
+wwwroot\fonts\IRANSans\style.css
+wwwroot\fonts\IRANSans\woff\IRANSansX-Black.woff
+wwwroot\fonts\IRANSans\woff\IRANSansX-Bold.woff
+wwwroot\fonts\IRANSans\woff\IRANSansX-DemiBold.woff
+wwwroot\fonts\IRANSans\woff\IRANSansX-ExtraBlack.woff
+wwwroot\fonts\IRANSans\woff\IRANSansX-ExtraBold.woff
+wwwroot\fonts\IRANSans\woff\IRANSansX-Heavy.woff
+wwwroot\fonts\IRANSans\woff\IRANSansX-Light.woff
+wwwroot\fonts\IRANSans\woff\IRANSansX-Medium.woff
+wwwroot\fonts\IRANSans\woff\IRANSansX-Regular.woff
+wwwroot\fonts\IRANSans\woff\IRANSansX-Thin.woff
+wwwroot\fonts\IRANSans\woff\IRANSansX-UltraLight.woff
+wwwroot\fonts\IRANSans\woff2\IRANSansX-Black.woff2
+wwwroot\fonts\IRANSans\woff2\IRANSansX-Bold.woff2
+wwwroot\fonts\IRANSans\woff2\IRANSansX-DemiBold.woff2
+wwwroot\fonts\IRANSans\woff2\IRANSansX-ExtraBlack.woff2
+wwwroot\fonts\IRANSans\woff2\IRANSansX-ExtraBold.woff2
+wwwroot\fonts\IRANSans\woff2\IRANSansX-Heavy.woff2
+wwwroot\fonts\IRANSans\woff2\IRANSansX-Light.woff2
+wwwroot\fonts\IRANSans\woff2\IRANSansX-Medium.woff2
+wwwroot\fonts\IRANSans\woff2\IRANSansX-Regular.woff2
+wwwroot\fonts\IRANSans\woff2\IRANSansX-Thin.woff2
+wwwroot\fonts\IRANSans\woff2\IRANSansX-UltraLight.woff2
+wwwroot\fonts\Morabba\woff2\Morabba-Bold.woff2
+wwwroot\fonts\Morabba\woff2\Morabba-Light.woff2
+wwwroot\fonts\Morabba\woff2\Morabba-Medium.woff2
+wwwroot\fonts\Vazir\Vazir-Black.ttf
+wwwroot\fonts\Vazir\Vazir-Bold.ttf
+wwwroot\fonts\Vazir\Vazir-Medium.ttf
+wwwroot\fonts\Vazir\Vazir-Regular.ttf
+wwwroot\images\icons\ArrowLeft.svg
+wwwroot\images\icons\ArrowRightEndOnRectangle.svg
+wwwroot\images\icons\Backward.svg
+wwwroot\images\icons\Bars4.svg
+wwwroot\images\icons\Clock.svg
+wwwroot\images\icons\Cloud.svg
+wwwroot\images\icons\EllipsisHorizontal.svg
+wwwroot\images\icons\EllipsisVertical.svg
+wwwroot\images\icons\Home.svg
+wwwroot\images\icons\Key.svg
+wwwroot\images\icons\LockClosed.svg
+wwwroot\images\icons\LockOpen.svg
+wwwroot\images\icons\User.svg
+wwwroot\images\icons\UserPlus.svg
+wwwroot\js\sidebar.js
+wwwroot\js\spaghetti.js
+wwwroot\tailwind\styles.css
+wwwroot\tailwind\styles.output.css

@@ -15,6 +15,10 @@
 		<PackageReference Include="MudBlazor" Version="8.3.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Components\Shared\" />
+	</ItemGroup>
+
 	<!--<Target Name="tailwind" BeforeTargets="Publish">
 		<Exec Command="npm run watch" WorkingDirectory="./" />
 	</Target>-->

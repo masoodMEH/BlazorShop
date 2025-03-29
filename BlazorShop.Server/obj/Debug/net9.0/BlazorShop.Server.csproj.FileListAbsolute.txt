@@ -207,5 +207,6 @@ E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\bin\Debug\net9.0\MudB
 E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\obj\Debug\net9.0\compressed\tzxjg6is5z-hmu6kx9mgf.gz
 E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\obj\Debug\net9.0\compressed\0wz98yz2xy-tspksaymx7.gz
 E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\obj\Debug\net9.0\compressed\0gfydcc4cb-odzg0pp7k1.gz
-E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\obj\Debug\net9.0\compressed\d27d32q7rh-2lci846wz7.gz
-E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\obj\Debug\net9.0\compressed\db47df7g30-0a36vxz3xy.gz
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\obj\Debug\net9.0\compressed\d27d32q7rh-y7hidvhqt9.gz
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\obj\Debug\net9.0\compressed\nlwdj0wpf4-9s01jyz33v.gz
+E:\Projects\- Dotnet Projects\BlazorShop\BlazorShop.Server\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
